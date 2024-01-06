@@ -67,8 +67,6 @@ const Login = () => {
           <Button onClick={handleLogin} type="submit" variant="contained">
             Login
           </Button>
-         
-          </div>
         </div>
       </form>
     </div>
