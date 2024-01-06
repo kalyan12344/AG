@@ -6,8 +6,8 @@ import { ThemeContext } from "@emotion/react";
 import styled from "@emotion/styled";
 
 const Login = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("raju@gmail.com");
+  const [password, setPassword] = useState("rajuexam");
   const [error, setError] = useState(null);
 
   const navigate = useNavigate();
@@ -68,10 +68,7 @@ const Login = () => {
           </Button>
           <div className="signup">
             {" "}
-            {/* <p>new User?</p>
-            <Button variant="contained" onClick={() => navigate("/SignUp")}>
-              Signup
-            </Button> */}
+          
           </div>
         </div>
       </form>

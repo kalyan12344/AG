@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Login />} />
+        <Route exact path="/AG" element={<Login />} />
 
         <Route exact path="/Dashboard" element={<MissionGrid />} />
         <Route exact path="/piechart" element={<PieChart />} />

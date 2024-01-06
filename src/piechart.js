@@ -73,10 +73,10 @@ const PieChart = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          marginTop: "30px",
+          marginTop: "40px",
 
-          marginBottom: "30px",
-          marginLeft: "40vw",
+          marginBottom: "40px",
+          marginLeft: "45vw",
         }}
         onClick={() => navigate(`/Dashboard`)}
       >
