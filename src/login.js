@@ -4,10 +4,11 @@ import TextField from "@mui/material/TextField";
 import { useNavigate } from "react-router-dom";
 import { ThemeContext } from "@emotion/react";
 import styled from "@emotion/styled";
+import { Typography } from "@mui/material";
 
 const Login = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("raju@gmail.com");
+  const [password, setPassword] = useState("rajuexam");
   const [error, setError] = useState(null);
 
   const navigate = useNavigate();
@@ -66,12 +67,7 @@ const Login = () => {
           <Button onClick={handleLogin} type="submit" variant="contained">
             Login
           </Button>
-          <div className="signup">
-            {" "}
-            {/* <p>new User?</p>
-            <Button variant="contained" onClick={() => navigate("/SignUp")}>
-              Signup
-            </Button> */}
+         
           </div>
         </div>
       </form>
