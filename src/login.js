@@ -4,6 +4,7 @@ import TextField from "@mui/material/TextField";
 import { useNavigate } from "react-router-dom";
 import { ThemeContext } from "@emotion/react";
 import styled from "@emotion/styled";
+import { Typography } from "@mui/material";
 
 const Login = () => {
   const [email, setEmail] = useState("raju@gmail.com");
@@ -66,10 +67,13 @@ const Login = () => {
           <Button onClick={handleLogin} type="submit" variant="contained">
             Login
           </Button>
+<<<<<<< HEAD
           <div className="signup">
             {" "}
           
           </div>
+=======
+>>>>>>> 07df1781270efd937a04040d2b263184ff618412
         </div>
       </form>
     </div>
